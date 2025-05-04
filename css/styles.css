@@ -485,6 +485,9 @@ ul {
 	align-self: flex-start;
 }
 @media screen and (min-width: 768px) {
+	.general-title-three {
+		margin: 0;
+	}
 	.advantages-block {
 		row-gap: 72px;
 		column-gap: 24px;
@@ -746,7 +749,7 @@ a.baner-basement {
 }
 
 .social-icon-another:hover,
-.social-icon-another:focus {
+.social-icon-another:focus, .subscribe-button-end:hover, .subscribe-button-end:focus {
 	background-color: #31d0aa;
 }
 
