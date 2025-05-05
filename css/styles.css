@@ -657,6 +657,10 @@ ul {
  .portfolio-images {
 	width: 288px;
 	height: 280px;
+	
+ }
+ .portfolio-images {
+	object-fit: cover;
  }
 .portfolio-item {
 	width: 100%;
@@ -708,9 +712,13 @@ ul {
 		row-gap: 72px;
 		column-gap: 24px;
 	}
-.portfolio-images {
+.portfolio-animation {
 	width: 356px;
 	height: 300px;
+	
+}
+.portfolio-images {
+	object-fit:cover;
 }
 .portfolio-item {
 	flex-basis: calc((100% - 24px) / 2);
@@ -726,10 +734,13 @@ ul {
 			padding-left: 15px;
 			padding-right: 15px;
 		}
-	.portfolio-images {
+	.portfolio-animation{
 		width: 360px;
 		height: 300px;
 	}
+		.portfolio-images {
+			object-fit: cover;
+		}
 	.portfolio-block {
 			row-gap: 48px;
 			column-gap: 24px;
