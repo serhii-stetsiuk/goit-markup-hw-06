@@ -92,11 +92,6 @@ ul {
 	border-bottom: 1px solid #e7e9fc;
 	box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 999;
-	background-color: #fff;
 }
 
 .container-menu{
@@ -297,7 +292,7 @@ ul {
 			height: 4px;
 			background-color: #404bbf;
 			position: absolute;
-			bottom: -2px;
+			bottom: -1px;
 			left: 0;
 			border-radius: 2px;
 		}
@@ -353,9 +348,7 @@ ul {
  }
 
 /* Effective Solutions */
-.top-page {
-	margin-top: 54px;
-}
+
  .effective {
 	max-width: 320px;
 	background-repeat: no-repeat;
@@ -431,9 +424,6 @@ ul {
 	background-color: #404BBF;
 }
 @media screen and (min-width: 768px) {
-	.top-page {
-			margin-top: 72px;
-		}
 	.effective {
 		max-width: 768px;
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7),
