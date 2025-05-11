@@ -697,6 +697,10 @@ ul {
 		0 1px 1px 0 rgba(46, 47, 66, 0.16),
 		0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.portfolio-bold-three {
+	font-weight: 500;
+	font-size: 20px;
+}
 @media screen and (min-width: 768px) {
 .portfolio-block {
 		row-gap: 72px;
@@ -717,6 +721,7 @@ ul {
 	font-weight: 400;
 	color: #434455;
 }
+
 }
 	
 @media screen and (min-width: 1158px) {
@@ -739,10 +744,7 @@ ul {
 		.portfolio-item {
 			flex-basis: calc((100% - 48px) / 3);
 		}
-.portfolio-bold-three {
-	font-weight: 500;
-	font-size: 20px;
-}
+
 }
 
 /* footer */
